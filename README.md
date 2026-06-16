@@ -6,3 +6,6 @@
 
 This repository demonstrates Git version control concepts, SSH authentication, branch management, and merge conflict resolution.
 
+## Feature B
+
+This line was added from feature-B branch.
