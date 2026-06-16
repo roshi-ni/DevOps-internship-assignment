@@ -9,3 +9,8 @@ This repository demonstrates Git version control concepts, SSH authentication, b
 ## Feature A
 
 This line was added from feature-A branch.
+
+## Feature B
+
+This line was added from feature-B branch.
+
