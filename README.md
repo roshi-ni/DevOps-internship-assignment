@@ -10,6 +10,7 @@ This repository demonstrates Git version control concepts, SSH authentication, b
 
 ![Repository Structure](screenshots/repository-structure.png)
 
+
 ### Difference between git fetch and git pull
 ## git fetch
 
@@ -33,6 +34,7 @@ git pull = download + merge
 
 ![SSH Authentication](screenshots/ssh-authentication.png)
 
+
 ## Merge Conflict Resolution
 
 I created two branches:
@@ -43,6 +45,7 @@ feature-B
 ## Branch Creation
 
 ![Git Branches](screenshots/git-branches.png)
+
 
 Both branches modified the same section of README.md.
 
@@ -72,9 +75,13 @@ This line was added from feature-B branch.
 ## Merge Conflict
 
 ![Merge Conflict](screenshots/merge-conflict1.png)
+
 ![Merge Conflict](screenshots/merge-conflict2.png)
+
 ![Merge Conflict](screenshots/merge-conflict3.png)
+
 ![Merge Conflict](screenshots/merge-conflict4.png)
+
  
 ## Part 2: Docker & Containerization
 
@@ -107,8 +114,11 @@ docker run hello-java-app
 ## Docker Build and Run
 
 ![Docker Run](screenshots/docker-run.png)
+
 ![Docker Run](screenshots/docker-run2.png)
+
 ![Docker Run](screenshots/docker-run3.png)
+
 
 ## Reducing Docker Image Size
 
