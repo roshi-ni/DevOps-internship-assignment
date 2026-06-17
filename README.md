@@ -104,6 +104,23 @@ This line was added from feature-B branch.
  
 ## Part 2: Docker & Containerization
 
+### Application Used
+
+For this assignment, I created a simple Java application named `HelloWorld.java`.
+
+Source Code:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello from Docker!");
+    }
+}
+```
+
+The application was containerized using Docker and executed successfully inside a Docker container.
+
+
 ## Dockerfile
 
 A Dockerfile is a text file that contains instructions to build a Docker image. It defines the base image, dependencies, files to copy, and commands to execute.
@@ -162,6 +179,22 @@ If the Docker image is too large, I would:
 - Copy only required files into the image.
 
 ## Part 3: Kubernetes (EKS Basics)
+
+### Kubernetes Configuration Files
+
+The following Kubernetes manifests were created:
+
+- deployment.yaml
+- service.yaml
+
+Deployment configuration:
+- 2 replicas
+- Application deployment
+
+Service configuration:
+- LoadBalancer service
+- Exposes the application externally
+
 
 ### Difference between Pod, Deployment, and Service
 
@@ -222,6 +255,12 @@ Push to DockerHub/ECR
 Deploy to Kubernetes (kubectl apply or Helm)
 ↓
 Application Available in EKS
+
+### Workflow File
+
+GitHub Actions workflow location:
+
+.github/workflows/ci.yml
 
 
 ## Part 5: Monitoring & Logs
