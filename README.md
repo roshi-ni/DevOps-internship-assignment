@@ -6,6 +6,10 @@
 
 This repository demonstrates Git version control concepts, SSH authentication, branch management, and merge conflict resolution.
 
+## Repository Structure
+
+![Repository Structure](screenshots/repository-structure.png)
+
 ### Difference between git fetch and git pull
 ## git fetch
 
@@ -25,12 +29,20 @@ git pull origin main
 git fetch = download only
 git pull = download + merge
 
+## SSH Authentication
+
+![SSH Authentication](screenshots/ssh-authentication.png)
+
 ## Merge Conflict Resolution
 
 I created two branches:
 
 feature-A
 feature-B
+
+## Branch Creation
+
+![Git Branches](screenshots/git-branches.png)
 
 Both branches modified the same section of README.md.
 
@@ -56,6 +68,13 @@ This line was added from feature-A branch.
 ## Feature B
 
 This line was added from feature-B branch.
+
+## Merge Conflict
+
+![Merge Conflict](screenshots/merge-conflict1.png)
+![Merge Conflict](screenshots/merge-conflict2.png)
+![Merge Conflict](screenshots/merge-conflict3.png)
+![Merge Conflict](screenshots/merge-conflict4.png)
  
 ## Part 2: Docker & Containerization
 
@@ -84,6 +103,12 @@ A Docker container is a running instance of a Docker image. It executes the appl
 
 Example:
 docker run hello-java-app
+
+## Docker Build and Run
+
+![Docker Run](screenshots/docker-run.png)
+![Docker Run](screenshots/docker-run2.png)
+![Docker Run](screenshots/docker-run3.png)
 
 ## Reducing Docker Image Size
 
