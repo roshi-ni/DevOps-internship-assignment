@@ -2,16 +2,40 @@
 
 **Name:** Roshini Allada
 
-## Part 1: Version Control (Git & SSH)
+## Contents
 
-This repository demonstrates Git version control concepts, SSH authentication, branch management, and merge conflict resolution.
+- Part 1: Git & SSH
+- Part 2: Docker & Containerization
+- Part 3: Kubernetes (EKS Basics)
+- Part 4: CI/CD Pipeline
+- Part 5: Monitoring & Logs
+- Part 6: Problem-Solving Scenario
 
+## Files Included
+
+- README.md
+- HelloWorld.java
+- Dockerfile
+- deployment.yaml
+- service.yaml
+- .github/workflows/ci.yml
+  
 ## Repository Structure
 
 ![Repository Structure](screenshots/repository-structure.png)
 
 
+## Part 1: Version Control (Git & SSH)
+
+This repository demonstrates Git version control concepts, SSH authentication, branch management, and merge conflict resolution.
+
+## SSH Authentication
+
+![SSH Authentication](screenshots/ssh-authentication.png) 
+
+
 ### Difference between git fetch and git pull
+
 ## git fetch
 
 Downloads the latest changes from the remote repository but does not merge them into the current branch.
@@ -30,17 +54,12 @@ git pull origin main
 git fetch = download only
 git pull = download + merge
 
-## SSH Authentication
-
-![SSH Authentication](screenshots/ssh-authentication.png)
-
-
 ## Merge Conflict Resolution
 
 I created two branches:
 
-feature-A
-feature-B
+- feature-A
+- feature-B
 
 ## Branch Creation
 
@@ -112,6 +131,17 @@ Example:
 docker run hello-java-app
 
 ## Docker Build and Run
+
+### Docker Execution Result
+
+Command:
+
+docker run --rm hello-java-app
+
+Output:
+
+Hello from Docker!
+
 
 ![Docker Run](screenshots/docker-run.png)
 
