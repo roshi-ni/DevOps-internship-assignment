@@ -6,6 +6,49 @@
 
 This repository demonstrates Git version control concepts, SSH authentication, branch management, and merge conflict resolution.
 
+### Difference between git fetch and git pull
+## git fetch
+
+Downloads the latest changes from the remote repository but does not merge them into the current branch.
+
+Example:
+git fetch origin
+
+## git pull
+
+Downloads the latest changes and automatically merges them into the current branch.
+
+Example:
+git pull origin main
+
+## Summary
+git fetch = download only
+git pull = download + merge
+
+## Merge Conflict Resolution
+
+I created two branches:
+
+feature-A
+feature-B
+
+Both branches modified the same section of README.md.
+
+### Steps followed:
+
+- Created feature-A branch and added changes.
+- Created feature-B branch and added changes.
+- Merged feature-A into main successfully.
+- Attempted to merge feature-B into main.
+- Git reported a merge conflict.
+- Opened README.md and reviewed conflict markers.
+- Kept the required content from both branches.
+- Removed conflict markers.
+- Added the file using git add README.md.
+- Completed the merge using git commit.
+
+This successfully resolved the merge conflict.
+
 ## Feature A
 
 This line was added from feature-A branch.
@@ -14,6 +57,8 @@ This line was added from feature-A branch.
 
 This line was added from feature-B branch.
  
+## Part 2: Docker & Containerization
+
 ## Dockerfile
 
 A Dockerfile is a text file that contains instructions to build a Docker image. It defines the base image, dependencies, files to copy, and commands to execute.
